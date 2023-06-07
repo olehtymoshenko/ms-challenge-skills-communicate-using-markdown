@@ -15,3 +15,9 @@ Enumerable.Range(1,100)
   .ToList()
   .ForEach(x => Console.WriteLine($" x.ToString() "));
 ```
+
+- [x] Update files in DynamoDB
+- [x] Promote new cache in AdminTool
+- [ ] Add a new user in AdminTool
+- [ ] Emit a broadcast message about the update to the notifications channel
+- [x] Chill  
