@@ -6,3 +6,12 @@
 ###### 6th level header
 
 ![anquie style photo](https://i.pinimg.com/564x/a5/74/74/a574746fc3831b1044009a04a2aedd92.jpg)
+
+```csharp
+Enumerable.Range(1,100)
+  .Select(x => new { 
+     x, 
+     -x})
+  .ToList()
+  .ForEach(x => Console.WriteLine($" x.ToString() "));
+```
