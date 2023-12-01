@@ -28,7 +28,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with: 
           script: |
            github.rest.issues.createComment({
